@@ -483,49 +483,4 @@ html.transition *:after {
   transition-delay: 0 !important;
 }
 
-/*******************************************************************************
- * Style overrides for distill blog posts.
- ******************************************************************************/
-d-byline {
-  border-top-color: #e8e8e8 !important;
-}
-
-d-byline h3 {
-  color: var(--global-text-color) !important;
-}
-
-d-byline a, d-article d-byline a {
-  color: var(--global-text-color) !important;
-}
-d-byline a:hover, d-article d-byline a:hover {
-  color: var(--global-hover-color) !important;
-}
-
-d-article {
-  border-top-color: #e8e8e8 !important;
-}
-d-article a, d-article p, d-article h1, d-article h2, d-article h3, d-article h4, d-article h5, d-article h6 {
-  color: var(--global-text-color) !important;
-}
-d-article a, d-article h1, d-article h2, d-article hr {
-  border-bottom-color: #e8e8e8 !important;
-}
-d-article a:hover {
-  border-bottom-color: var(--global-hover-color) !important;
-}
-
-d-appendix {
-  border-top-color: #e8e8e8 !important;
-  color: var(--global-distill-app-color) !important;
-}
-d-appendix h3, d-appendix li, d-appendix span {
-  color: var(--global-distill-app-color) !important;
-}
-d-appendix a, d-appendix a.footnote-backlink {
-  color: var(--global-distill-app-color) !important;
-}
-d-appendix a:hover, d-appendix a.footnote-backlink:hover {
-  color: var(--global-hover-color) !important;
-}
-
 /*# sourceMappingURL=main.css.map */
